@@ -38,8 +38,8 @@ app.post('/', (req, res) => {
         // port: 2525,
         service: 'gmail',
         auth: {
-            user: "", // Sender's email address
-            pass: "" // password
+            user: "development.tests.rahul@gmail.com", // Sender's email address
+            pass: "#rahul123" // password
         },
         tls: {
             rejectUnauthorized: false
@@ -62,7 +62,7 @@ app.post('/', (req, res) => {
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-        res.render('contact', { msg: 'Email has been sent' });
+        res.render('contact', { msg: 'Email has been sent, Check You Email' });
     });
 
 
