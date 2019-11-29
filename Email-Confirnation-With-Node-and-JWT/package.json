@@ -1,0 +1,18 @@
+{
+  "name": "email-confirnation-with-node-and-jwt",
+  "version": "1.0.0",
+  "description": "Email Conformation with node js and Json Web Tokens",
+  "main": "app",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Rahul Bera",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "nodemailer": "^6.3.1"
+  }
+}
