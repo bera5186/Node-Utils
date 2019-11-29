@@ -11,12 +11,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    token: {
-        type: String,
-        required: true,
-        default: Date.now(),
-        expires: 120
-    },
     isVerified: {
         type: Boolean,
         default: false
