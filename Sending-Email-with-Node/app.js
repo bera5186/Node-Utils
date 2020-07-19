@@ -39,7 +39,7 @@ app.post('/', (req, res) => {
         service: 'gmail',
         auth: {
             user: "development.tests.rahul@gmail.com", // Sender's email address
-            pass: "#rahul123" // password
+            pass: "" // password
         },
         tls: {
             rejectUnauthorized: false
